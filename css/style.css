@@ -1,0 +1,72 @@
+body {
+    background-image: url('../bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150% auto;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+.container {
+    align-items: center;
+    background: linear-gradient(to right, transparent 30%, transparent 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+
+button.button {
+    box-shadow: 1px 1px #888888;
+    border-radius: 20em;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: 1px solid rgb(228, 228, 228);
+    font-size: 17px;
+    font-synthesis: style;
+    padding: 7px 12px;
+    border-style: groove;
+    margin: 6px 0;
+    margin-right: 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 120px;
+  }
+
+  button.button:hover {
+    box-shadow: none;
+    color: white;
+  }
+
+
+.table {
+    text-align: center;
+    border-spacing: 0.5rem;
+    border-collapse: separate;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+    background-color: transparent;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    border: transparent;
+    padding: 12px 15px;
+}
+
