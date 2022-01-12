@@ -2,7 +2,7 @@ body {
     background-image: url('../bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 150% auto;
+    background-size: 170% auto;
 }
 
 #particles-js {
@@ -14,6 +14,14 @@ body {
 
 .container {
     align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fetchClients,
+.fetchAccounts,
+.fetchCards {
+    align-items: center;
     background: linear-gradient(to right, transparent 30%, transparent 70%);
     display: flex;
     flex-direction: column;
@@ -23,7 +31,9 @@ body {
     padding-top: 70px;
 }
 
-button.button {
+button.getAllClients,
+button.getAllAccounts,
+button.getAllCards {
     box-shadow: 1px 1px #888888;
     border-radius: 20em;
     color: rgb(255, 255, 255);
@@ -35,13 +45,15 @@ button.button {
     border-style: groove;
     margin: 6px 0;
     margin-right: 50px;
-    display: inline-block;
+    display:inherit;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     min-width: 120px;
   }
 
-  button.button:hover {
+  button.getAllClients:hover,
+  button.getAllAccounts:hover,
+  button.getAllCards:hover {
     box-shadow: none;
     color: white;
   }
@@ -51,6 +63,7 @@ button.button {
     text-align: center;
     border-spacing: 0.5rem;
     border-collapse: separate;
+    border-radius: 1em;
     margin: 25px 0;
     font-size: 0.9em;
     font-family: sans-serif;

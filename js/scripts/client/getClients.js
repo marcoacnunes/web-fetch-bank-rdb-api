@@ -1,4 +1,4 @@
-document.getElementById('button1').addEventListener
+document.getElementById('getAllClients').addEventListener
 ('click', getClients);
 
 

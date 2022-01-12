@@ -10,15 +10,27 @@
 
 <body>
     <div class="container">
-        <div class="buttons">
-            <button class="button" onclick="getClients()">Clients</button>
-        </div>
-        <div id="result"></div>
-        <script src="js/scripts/getClients.js"></script>
-    </div>
 
-        <div class="particles" id="particles-js"></div>
-        <script src="js/particles/particles.js"></script>
-        <script src="js/particles/app.js"></script>
+        <div class="fetchClients">
+            <button class="getAllClients" onclick="getClients()">Get All Clients</button>
+            <div id="result"></div>
+            <script src="js/scripts/client/getClients.js"></script>
+        </div>
+    
+        <div class="fetchAccounts">
+            <button class="getAllAccounts" onclick="getAccounts()">Get All Accounts</button>
+             <div id="result"></div>
+            <script src="js/scripts/account/getAccounts.js"></script>
+        </div>
+    
+        <div class="fetchCards">
+            <button class="getAllCards" onclick="getCards()">Get All Cards</button>
+            <div id="result"></div>
+            <script src="js/scripts/card/getCards.js"></script>
+        </div>
+    </div>
+            <div class="particles" id="particles-js"></div>
+            <script src="js/particles/particles.js"></script>
+            <script src="js/particles/app.js"></script>
 </body>
 </html>
